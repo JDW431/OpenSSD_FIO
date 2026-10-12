@@ -1,0 +1,15 @@
+[global]
+filename=
+size=
+io_size=
+
+bs=4k
+direct=1
+log_avg_msec=1000
+
+[gc_update]
+rw=randwrite
+
+write_bw_log=./(디렉터리)/gc_update
+write_iops_log=./(디렉터리)/gc_update
+write_lat_log=./(디렉터리)/gc_update
