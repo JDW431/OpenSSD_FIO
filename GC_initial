@@ -1,0 +1,9 @@
+[global]
+filename=
+size=
+
+bs=1m
+direct=1
+
+[gc_init]
+rw=write
